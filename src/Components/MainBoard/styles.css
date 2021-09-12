@@ -1,0 +1,92 @@
+.board-layout {
+    background-color: rgb(100, 92, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: grid;
+    grid-template-rows: max-content auto;
+    grid-gap: 10px;
+    padding: 10px;
+    height:800px;
+    overflow: auto;
+}
+.list-layout {
+    display: grid;
+    grid-gap: 10px;
+
+}
+.board-text {
+    font-weight: bold;
+    font-size: 28px;
+    padding: 5px;
+}
+.board-lists {
+    display: grid;
+    grid-auto-columns: 275px;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    height: 450px;
+    margin-bottom: 30px;
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+.board-list {
+    background-color: rgb(235, 236, 240);
+    border-radius: 3px;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-gap: 10px;
+    /* Chrome use a fixed height */
+    padding: 10px;
+    height: 100%;
+    overflow: auto;
+}
+
+.list-title {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.add-task {
+    cursor: pointer;
+    color: #7a7ad8;
+}
+.card {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9,30,66,.25);
+    padding: 10px;
+    cursor:pointer;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.card input {
+    margin-right: 5px;
+}
+
+.cta__add-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7a7ad8;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px dashed #7a7ad8;
+    padding: 20px 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    backdrop-filter: blur(11px);
+}
+
+.action-area {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+

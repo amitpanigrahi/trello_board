@@ -1,0 +1,28 @@
+.completedList {
+  background: rgb(235, 236, 240);
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 0 1px 13px 2px #000;
+  overflow: auto;
+  transition: 0.5s ease-in-out;
+}
+
+.completedListOpen {
+  height: 300px;
+}
+
+.title {
+  padding: 8px;
+  font-size: .875rem;
+  margin-bottom: 10px;
+  border-bottom: 1px solid aliceblue;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}

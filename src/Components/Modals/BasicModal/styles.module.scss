@@ -1,0 +1,40 @@
+.modalContentWrapper {
+  background: #fff;
+  padding: 0 20px 20px;
+  border-radius: 10px;
+  font-size: .875rem;
+  width: 400px;
+  max-width: 90vw;
+}
+
+.modalTitle {
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.modalWrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(10px);
+  z-index: 9999999999;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  transform: rotate(45deg);
+  font-size: 30px;
+  color: #000;
+  cursor: pointer;
+  text-shadow: 0 0 black;
+}

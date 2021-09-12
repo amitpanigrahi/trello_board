@@ -1,0 +1,37 @@
+.contentWrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: .875rem;
+  width: 400px;
+  max-width: 90vw;
+}
+
+.modalCtaWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta {
+  padding: 5px 10px;
+  min-width: 65px;
+  border: none;
+  border-radius: 3px;
+  background: #9ac1e2;
+  cursor: pointer;
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.primaryCta {
+  @extend .cta;
+  margin-left: 20px;
+  background: #79b4f8;
+}
+
+.deleteCta {
+  @extend .cta;
+  background: #ea3a3a;
+  color: #fff;
+}
